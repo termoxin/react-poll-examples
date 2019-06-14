@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/react-poll-examples/static/css/main.2cce8147.chunk.css",
-    "main.js": "/react-poll-examples/static/js/main.ed521a18.chunk.js",
-    "main.js.map": "/react-poll-examples/static/js/main.ed521a18.chunk.js.map",
+    "main.css": "/react-poll-examples/static/css/main.991724e0.chunk.css",
+    "main.js": "/react-poll-examples/static/js/main.5d8179af.chunk.js",
+    "main.js.map": "/react-poll-examples/static/js/main.5d8179af.chunk.js.map",
     "runtime~main.js": "/react-poll-examples/static/js/runtime~main.fb9d98b0.js",
     "runtime~main.js.map": "/react-poll-examples/static/js/runtime~main.fb9d98b0.js.map",
-    "static/js/2.b41502e9.chunk.js": "/react-poll-examples/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/react-poll-examples/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.15445e0c.chunk.js": "/react-poll-examples/static/js/2.15445e0c.chunk.js",
+    "static/js/2.15445e0c.chunk.js.map": "/react-poll-examples/static/js/2.15445e0c.chunk.js.map",
     "index.html": "/react-poll-examples/index.html",
-    "precache-manifest.8019f86275acc03e005465133347513d.js": "/react-poll-examples/precache-manifest.8019f86275acc03e005465133347513d.js",
+    "precache-manifest.9213af8e9cecc179ff39b05ef091f38b.js": "/react-poll-examples/precache-manifest.9213af8e9cecc179ff39b05ef091f38b.js",
     "service-worker.js": "/react-poll-examples/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/react-poll-examples/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/react-poll-examples/static/media/logo.5d5d9eef.svg"
+    "static/css/main.991724e0.chunk.css.map": "/react-poll-examples/static/css/main.991724e0.chunk.css.map"
   }
 }
