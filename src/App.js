@@ -1,10 +1,16 @@
 import React from "react";
 import { Radio } from "semantic-ui-react";
 import styled from "styled-components";
-import Poll from "@termoxin/react-poll";
+import ReactPoll from "@termoxin/react-poll";
 import "./App.css";
 
-const Controls = styled.div``;
+const Controls = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  * {
+    margin-top: 5px;
+  }
+`;
 
 const poll = [
   {
@@ -72,7 +78,8 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      type: "list"
+      type: "list",
+      logs: false
     };
   }
 
@@ -88,15 +95,30 @@ class App extends React.Component {
     }
   };
 
+  handleLogsToggle = (_, { checked }) => {
+    if (checked) {
+      this.setState({
+        logs: true
+      });
+    } else {
+      this.setState({
+        logs: false
+      });
+    }
+  };
+
   render() {
-    const { type } = this.state;
+    const { type, logs } = this.state;
+    const { Poll, Logs } = ReactPoll;
 
     return (
       <div className="App">
         <Controls>
           <Radio toggle label={type} onChange={this.handleToggle} />
+          <Radio toggle label="Show logs" onChange={this.handleLogsToggle} />
         </Controls>
         <Poll questions={poll} type={type} name="General questions" />
+        {logs ? <Logs/> : ""}
       </div>
     );
   }
